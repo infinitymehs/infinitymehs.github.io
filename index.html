@@ -1,14 +1,75 @@
 <!DOCTYPE html>
 <html>
+
     <head>
+        <link rel='stylesheet' href="static/css/style.css"> 
         <title>Eugenia's Website</title>
     </head>
-    <body>
 
+    <body>
         <nav id = 'navbar'>
-            <a href = '/personality.html'> Personality Test</a>
+            <a class = 'navitems'> About</a>
+            <a class = 'navitems'> Projects</a>
+            <a class = 'navitems' href = 'templates/personality.html'> Personality Test</a>
         </nav>
-        
-        <h1>Hello World</h1>
+        <div id="'main container">
+
+            <div class = 'intro'>
+                <br><br><br><br><br><br>
+                <h1 id = 'intro'> Hey! Glad you're here :)</h1>
+                <br><br>
+                <h2>Here are some of my past projects...</h2>
+            </div>
+
+            <div id = 'projects'>
+                <div class = 'card' id = 'crizz' >
+                <a href = 'templates/crizz.html' id = 'anchor'>
+                    <h2>Crizz (Crochet Rizz)</h2>
+                    <p>What better gift to rizz someone up than a handmade crochet flower?</p>
+                </a>
+                </div>
+
+                <div class = 'card' id = 'shopeescam'>
+                    <a href = 'templates/scam.html' id = 'anchor'>
+                        <h2>Shopee Scam Detector</h2>
+                        <p>Detect potential Shopee scammers with our chrome extension</p>
+                    </a>
+                </div>
+
+                <div class = 'card' id = 'droneRL'>
+                    <a id = 'anchor'>
+                        <h2>RL Drone Training</h2>
+                        <p>Researching new ways to train drones using reinforcement learning</p>
+                    </a>
+                </div>
+
+                <div class = 'card' id = 'imagevideo'>
+                    <a id = 'anchor'>
+                        <h2>Image Video Retrieval</h2>
+                        <p>Researching uses of CLIP to make searching for images a breeze</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class = 'future'>
+                <h2>... and some of my future ones!</h2>
+            </div>
+
+            <div id = 'futureprojects'>
+                <div class = 'card' id = 'sgsl' >
+                <a id = 'sgsl'>
+                    <h2>SGSLingo</h2>
+                    <p>Learn SGSL (Singapore Sign Language) as you would on Duolingo!</p>
+                </a>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <footer class="footer">
+            <p>Footer Content Here</p>
+        </footer>
+
     </body>
+
 </html>

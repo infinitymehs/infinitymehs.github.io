@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Lexend Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lexend Regular'), url('../fonts/Lexend[wght].woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'RalewayLI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('RalewayLI'), url('../fonts/Raleway-LightItalic.ttf') format('truetype');
+    }
+
+body{
+    font-family: 'Lexend Regular';
+    background-color: #1e1e1e	;
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    font-family: 'RalewayLI';
+    color: white;
+    text-align:center;
+}
+
+#intro{
+    font-size: 70px;
+}
+
+.future{
+    font-family: 'RalewayLI';
+    color: white;
+    text-align:center;   
+}
+
+#navbar {
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    top:0px;
+    width:100%;
+    height:10%;
+    gap:50px;
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navitems{
+    text-decoration: none;
+    color: white;
+}
+.navitems:hover{
+    color:#FAF9F6;
+}
+
+#main-container{
+    margin-top:5%;
+}
+
+#intro{
+    text-align:center;
+    color: #FAF9F6;
+}
+
+#projects,#futureprojects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px 0;
+    height:100%;
+    width:40%;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.card:hover{
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+#crizz{
+    background-color: pink;
+    opacity:0.95;
+}
+
+#shopeescam{
+    background-color: 	#EE4D2D;
+    opacity:0.95;
+}
+
+#droneRL{
+    background-color: #9ab1d5	;
+    opacity:0.95;
+}
+
+#imagevideo{
+    background-color:#dccee2;
+    opacity:0.95;
+}
+
+#sgsl{
+    background-color:#cc3232;
+    opacity: 0.95;
+}
+
+#anchor{
+    text-decoration: none;
+    color:black;
+}
+
+.footer {
+    width: 100%;
+    background-color: #252526; /* Background color for the bar */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Space around the content */
+    position: relative;
+    bottom: 0; /* Align at the bottom */
+}
