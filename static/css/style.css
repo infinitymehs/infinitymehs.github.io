@@ -77,14 +77,12 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    min-width: fit-content;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     padding: 20px;
     margin: 10px 0;
     height:100%;
     width:40%;
-    max-width: 600px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
@@ -99,6 +97,9 @@ body{
 #crizz{
     background-color: pink;
     opacity:0.95;
+    white-space: normal;
+    overflow:hidden;
+    text-overflow: clip;
 }
 
 #shopeescam{
@@ -124,6 +125,7 @@ body{
 #anchor{
     text-decoration: none;
     color:black;
+    max-width: 600px;
 }
 
 .footer {
